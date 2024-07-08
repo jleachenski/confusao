@@ -3,7 +3,7 @@ const ehParOuImpar = numero => {
     let array = numero.split("");
     let soma = 0;
 
-    array.foreach(elemento => {
+    array.forEach(elemento => {
 
         soma += +elemento
     })
